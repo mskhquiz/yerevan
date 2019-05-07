@@ -42,7 +42,7 @@ header a{
     background-size: 50%;
     background-attachment: fixed;
     margin: 0px;
-    height: 800px;
+    height: 850px;
 }
 .question div{
     width: 45%;
@@ -51,7 +51,7 @@ header a{
     padding: 0px 20px;
 }
 .question h3{
-    font-size: 60px;
+    font-size: 50px;
     display: inline-block;
 }
 .question button{
@@ -62,18 +62,23 @@ header a{
     border: solid 2px #777;
     margin: 10px 3px;
     color: #333;
+    width: 100%;
 }
 .question a{
     font-size: 25px;
-    display: inline-block;
-    padding: 5px 15px;
-    border: solid 2px rgb(20, 94, 131);
-    margin: 10px 3px;
-    background: rgb(20, 94, 131);
+    display: block;
+    padding: 10px 15px;
+    border: solid 2px #333;
+    margin: 20px 3px;
+    background: #333;
     color: white;
     text-decoration: none;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
 }
 .free-space{
+    font-size:20px;
     display: block;
     min-height:20px;
     color: rgba(0,0,0,0);
